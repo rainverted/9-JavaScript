@@ -21,7 +21,7 @@ const petras = {
     amzius: 99,
     gyvenamojiVieta: 'Gatve g. 1-3, Miestas',
     vaikai:[ {
-        vardas: 'Onute'
+        vardas: 'Onute',
         amzius: 67
         }
     ]
