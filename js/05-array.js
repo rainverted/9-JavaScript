@@ -1,8 +1,13 @@
 /*
 Array
 
+
 array metodai:
--.push()
+- .push()       - prideti i gala nauja reiksme
+- .unshift()    - prideti i prieki nauja reiksme
+- .pop()        - isimti is galo (paskutini)
+- .shift()      - isimti is priekio (pirmaji)
+
 */
 
 const marks = [10, 2, 8, 4]
@@ -36,3 +41,20 @@ console.log(abc);
 abc.unshift('a');
 console.log(abc);
 
+console.log(abc.reverse());
+console.log(abc);
+
+console.log('------------------');
+
+const a1 = ['a', 'b'];
+const a2 = ['c', 'd'];
+const a12 = a1.concat(a2)
+console.log(a1);
+console.log(a2);
+console.log(a12);
+
+const modern1 = [...a1, ...a2, ...a12];
+console.log(modern1);
+
+const modern2 = [...a2, ...a1];
+console.log(modern2);
