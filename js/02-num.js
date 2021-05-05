@@ -26,7 +26,19 @@ const begalybeMinus = -Infinity;
 console.log(begalybe, begalybeMinus);
 
 const nesamone = NaN;
-console.log(nesamone0);
+console.log(nesamone);
 
 const puseZodzio = 'labas' / 2;
 console.log(puseZodzio);
+
+
+const a = 5;
+const b = 6;
+const c = a * b;
+console.log(a, b, c);
+
+console.log(`${a} + ${b} = ${c}`);
+
+const x = 2 * 4 / 8;
+console.log(x);
+
