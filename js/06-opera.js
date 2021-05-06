@@ -15,6 +15,10 @@ console.log(sakinys1);
 const sakinys2 = `${w1} ${w2} ${w3}`;
 console.log(sakinys2);
 
+/*
+alternuojanti eilute
+*/
+
 const x = [10, 2, 8, 4];
 const alternuojantiSuma = x[0] - x[1] + x[2] - x[3];
 console.log(alternuojantiSuma);

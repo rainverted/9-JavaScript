@@ -58,3 +58,20 @@ console.log(modern1);
 
 const modern2 = [...a2, ...a1];
 console.log(modern2);
+
+
+console.log('------------------');
+
+
+// Sujungti sąrašų vertes, kurių tipas yra tekstai,
+// nuo sąrašo galo iki pradžios taip, jog tarp jų būtų kablelis ir tarpas
+
+
+const dictionary = ['sakau', 'tau', 'rytas', 'labas'];
+ let reverse = '';
+
+ reverse += dictionary[3];
+ reverse = reverse + ' , ';
+ reverse = reverse + dictionary[2];
+
+ console.log(dictionary);
