@@ -85,3 +85,4 @@ if (parosMetas === 'rytas') {
         }
     }
 }
+
