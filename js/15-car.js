@@ -16,11 +16,11 @@ function canDrive(kiekis, sanaudos, atstumas) {
     return false;
 }
 
-const try1 = canDrive(20, 5, 400);      // true
-const try2 = canDrive(20, 5, 1);        // true
-const try3 = canDrive(20, 5, 401);      // false
-const try4 = canDrive(20, 5, 999);      // false
-const try5 = canDrive(10, 10, 300);     // false
+const try1 = canDrive(20, 5, 400);
+const try2 = canDrive(20, 5, 1);  
+const try3 = canDrive(20, 5, 401);      
+const try4 = canDrive(20, 5, 999);      
+const try5 = canDrive(10, 10, 300);     
 
 console.log(try1, '->', true);
 console.log(try2, '->', true);
