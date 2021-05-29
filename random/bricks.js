@@ -12,7 +12,7 @@ function bricks(sienuPlociai, sienosAukstis, plytosAukstis, plytosPlotis) {
     let bendrasPlotis = 0;
     
     for (let i = 0; i < sienuPlociai.length; i++) {
-        bendrasPlotis += sienuPlociai[i]
+        bendrasPlotis += sienuPlociai[i];
     }
 
 
@@ -24,3 +24,4 @@ function bricks(sienuPlociai, sienosAukstis, plytosAukstis, plytosPlotis) {
 console.log(bricks([1, 2], 1, 0.1, 0.2), '->', 150);
 console.log(bricks([1, 1, 1], 1, 0.1, 0.2), '->', 150);
 console.log(bricks([2, 1, 3], 0.5, 0.1, 0.2), '->', 150);
+
